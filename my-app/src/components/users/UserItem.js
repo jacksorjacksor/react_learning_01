@@ -1,6 +1,6 @@
 // Largely created from KC: rafcp
 import React from 'react'
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 
 const UserItem = props => {
     const {login, node_id } = props.user;
@@ -10,7 +10,7 @@ const UserItem = props => {
 }
 
 // Set types
-UserItem.propTypes = {login:PropTypes.string.isRequired /* KC: ptsr */}
+// UserItem.propTypes = {login:PropTypes.string.isRequired /* KC: ptsr */}
 
 // Export
 export default UserItem 
